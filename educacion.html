@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="author" content="Daniel Castro">
+		<meta name="keywords" content="hoja_de_vida, curriculum">
+		<meta name="description" content="Hoja de vida personal">
+		<title>Hoja de Vida</title>
+	</head>
+	<body>
+		<header>
+			<img src="img/logo.svg" />
+			<h1>Hoja de Vida</h1>
+			<h2>Daniel Castro</h2>
+		</header>
+		<nav>
+			<ul>
+				<a  href="index.html"><li>Inicio</li></a>
+				<a  href="educacion.html"><li>Educación</li></a>
+				<a  href="experiencia.html"><li>Experiencia</li></a>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<h2>Educación</h2>
+				<table border="1", cellpadding="10", cellspacing="0">
+					<thead>
+						<tr>
+							<th>Año</th>
+							<th>Institución</th>
+							<th>Lugar</th>
+							<th>¿Culminó?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2011</td>
+							<td>Colegio Santa Isabel</td>
+							<td>Huancayo</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2014</td>
+							<td>Instituto Continental</td>
+							<td>Huancayo</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2019</td>
+							<td>Universidad Continental</td>
+							<td>Huancayo</td>
+							<td>En proceso</td>
+						</tr>
+					</tbody>
+				</table>	
+			</article>
+			<article>
+				<h2>Agregar Educación</h2>
+				<form autocomplete="on" name="form_educacion">
+					<legend>Agregar Estudios</legend>
+					<fieldset>
+						<p>
+							<label for="año">Año: </label>
+							<select>
+								<option>2018</option>
+								<option>2017</option>
+								<option>2016</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+							</select>	
+						</p>
+						<p>
+							<label for="institucion">Institución: </label>
+							<input type="text" name="institucion" required>
+						</p>
+						<p>
+							<label for="lugar">Lugar: </label>
+							<textarea name="lugar" rows="8" cols="40"></textarea>
+						</p>
+						<p>
+							<label for="culmino">¿Culminó?</label>
+							<input type="radio" name="culmino">SI
+							<input type="radio" name="culmino">No
+						</p>
+						<p>
+							<input type="submit" name="enviar" value="Enviar">
+						</p>
+					</fieldset>
+				</form>
+			</article>
+		</section>
+		<footer>
+			<p>®Derechos Reservados</p>
+			<ul>
+					<li><strong>Email:</strong> <a href="https://www.gmail.com" target="_blank">djcadaniel@gmail.com</a></li>
+					<li><strong>Teléfono:</strong> 922003019</li>
+					<li><strong>Dirección:</strong> Jr. Arequipa #1012 Huancayo Perú</li>
+				</ul>	
+		</footer>
+	</body>
+</html>
